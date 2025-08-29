@@ -1,0 +1,21 @@
+
+    body {
+        background-color: #fdf2d3;
+    }
+    
+    img {
+        min-width: 30%;
+        width:30%;
+        aspect-ratio: 2/3;
+        object-fit: cover;
+        left: 30%;
+    }
+    
+    div {
+        background-color: white;
+        display: inline-block;
+        min-width: 30%;
+        width: 30%;
+        aspect-ratio: 2/3;
+        left:50%;
+    }
