@@ -1,21 +1,77 @@
-
+    * {
+        margin: 0;
+    }
     body {
-        background-color: #fdf2d3;
+        background-color: #fff4aa;
+        font-family: montserrat;
+        display: flex;
+        height: 100vh;
+        align-items: center;
     }
-    
-    img {
-        min-width: 30%;
-        width:30%;
-        aspect-ratio: 2/3;
-        object-fit: cover;
-        left: 30%;
+    .product {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        margin: 30px auto;
+        border: none;
+        border-radius: 15px;
+        overflow: hidden;
     }
-    
-    div {
+    .product-image {
+        flex: 1;
+        overflow: hidden;
+        position: relative;
+    }
+    div.product-image img {
+        width: 165%;
+        position: absolute;
+        left: -25%;
+        
+    }
+    .product-details {
+        flex: 1;
         background-color: white;
-        display: inline-block;
-        min-width: 30%;
-        width: 30%;
-        aspect-ratio: 2/3;
-        left:50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .category {
+        letter-spacing: 3px;
+    }
+    .product-name {
+        font-family: fraunces;
+        font-size: 20px;
+    }
+    .product-description {
+        
+    }
+    .product-price {
+        display: flex;
+        align-items: center;
+        font-family: fraunces;
+        font-weight: bold;
+        color: green;
+    }
+    .current-price {
+        font-size: 25px;
+        margin-right: 10px;
+    }
+    .previous-price {
+        font-size: 12px;
+        text-decoration: line-through;
+        color: black;
+    }
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px;
+        background-color: green;
+        border: none;
+        border-radius: 3px;
+        color: white;
+    }
+    .cart-icon {
+        margin-right: 10px;
     }
